@@ -1,0 +1,32 @@
+zonecreate "DEMUC1PR50_TO_412353_1L", "DEMUC1PR50_P2;G8_412353_1L"
+cfgadd "Main_Fabric_A", "DEMUC1PR50_TO_412353_1L"
+cfg enable "Main_Fabric_A"
+
+zoneremove "DEMUC1PR50_P2_412353_1K_1L", "G8_412353_1L"
+cfg enable "Main_Fabric_A"
+zoneobjectrename "DEMUC1PR50_P2_412353_1K_1L", "DEMUC1PR50_TO_412353_1K"
+============================================================
+zonecreate "_TO_", ";"
+cfgadd "", "_TO_"
+cfg enable ""
+
+zoneremove "", ""
+cfg enable ""
+zoneobjectrename "", "_TO_"
+============================================================
+zonecreate "_TO_", ";"
+cfgadd "", "_TO_"
+cfg enable ""
+
+zoneremove "", ""
+cfg enable ""
+zoneobjectrename "", "_TO_"
+============================================================
+zonecreate "_TO_", ";"
+cfgadd "", "_TO_"
+cfg enable ""
+
+zoneremove "", ""
+cfg enable ""
+zoneobjectrename "", "_TO_"
+============================================================
