@@ -1,4 +1,4 @@
-serverA	50:56:55:55	storageA	active_config_a
+DEWSERV_01	50:56:55:55	PURE_FC0_CT1	MAIN_FABRIC_A
 serverB	78:78:69:45	storageA	active_config_a
 
 serverC	24:35:68:98	StorageB	active_config_b
